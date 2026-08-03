@@ -5,7 +5,9 @@ require('dotenv').config();
 const expensesRouter = require('./routes/expenses');
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: 'https://delightful-beach-04fcff80f.7.azurestaticapps.net',
+}));
 app.use(express.json());
 
 app.get('/', (req, res) => res.send('Expense Tracker API running'));
