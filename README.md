@@ -8,7 +8,7 @@ Full-stack expense tracker built with React, Node.js/Express, and MySQL — depl
 - MySQL database hosted on Azure Database for MySQL Flexible Server
 
 ## Live URLs
-- Frontend: https://expense-tracker-web.azurestaticapps.net
+- Frontend: https://delightful-beach-04fcff80f.7.azurestaticapps.net/
 - Backend API: https://expense-tracker-api.azurewebsites.net
 
 ## CI/CD
@@ -18,4 +18,3 @@ GitHub Actions auto-deploys:
 
 ## Local Setup
 See ``server/README.md`` and ``client/README.md`` for individual setup instructions.
-"@ | Out-File -FilePath README.md -Encoding utf8
